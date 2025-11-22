@@ -174,7 +174,7 @@ cout<<endl;}
 
 
 
-
+/* hollow diamond 
 int n=4; //upper triangle
 //space 1
 for(int i=0;i<n;i++){
@@ -205,6 +205,33 @@ if(i!= n-2){
     cout<<"*";
 }
 cout<<endl;
-}
+}*/
+
+
+int n=4;
+for(int i=0;i<n;i++){
+    for(int j=0;j<=i;j++){
+        cout<<"*";
+    }
+
+    
+        for(int j=0;j< 2*(-i)+6;j++){
+            cout<<" ";
+        }
+        for(int j=i;j>=0;j--){
+            cout<<"*";}
+ cout<<endl;}
+
+ //bottom
+ for(int i=0;i<n;i++){
+    for(int j=0;j<n-i;j++){
+        cout<<"*";
+    }for(int j=0;j<2*i;j++){
+        cout<<" ";
+    }for(int j=i;j<n;j++){
+        cout<<"*";
+    }
+ cout<<endl;}
 return 0;
+
 }
