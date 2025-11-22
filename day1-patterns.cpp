@@ -4,8 +4,6 @@ int main()
 {
 
 /* square pattern 
-
-
 int n= 5;
 for (int i=1;i<=n;i++){
 
@@ -20,10 +18,8 @@ cout<<endl;
 
 
 
-
-
-
-/*int n=5;
+/* QUESTION 2
+int n=5;
 for(int i=0;i<n;i++){
 char ch= 65;
 for(int j=0;j<n;j++){
@@ -34,10 +30,7 @@ cout<<endl;}*/
 
 
 
-
-
-
-/*
+/* QUESTION 3
 int n=3;
 int num=1;
 for(int i=0;i<n;i++){
@@ -50,30 +43,25 @@ for(int i=0;i<n;i++){
 */
 
 
-/*int n=4;
+
+/* QUESTION 4
+int n=4;
 char ch='*';
 for(int i=0;i<n;i++){
     for(int j=0;j<i+1;j++){
         cout<<'*';
-        
-        
- }cout<<endl;}
+         }cout<<endl;}
 */
 
 
-/*
+
+/* QUESTION 5 
 int n=4;
 int num=1;
 for(int i=0;i<n;i++){
     for(int j=0;j<i+1;j++){
         cout<<i+1;
-       
-        
-
-
-    }
-     cout<<endl;
-
+}  cout<<endl;
 }*/
 
 
@@ -81,17 +69,14 @@ for(int i=0;i<n;i++){
 
 
 
-/*int n=4;
+/* QUESTION 6 
+int n=4;
 for(int i=0;i<n;i++){
     int num=1;
     for(int j=0;j<i+1;j++){
-    
-    cout<<num;
+   cout<<num;
     num++;
-    
-    
-}
-cout<<endl;
+    }cout<<endl;
 }*/
 
 
@@ -100,8 +85,8 @@ cout<<endl;
 
 
 
-/*int n=4;
-
+/* QUESTON 7
+int n=4;
 for(int i=0;i<n;i++){
     for(int j=i+1;j>0;j--){
         cout<<j;*/
@@ -111,35 +96,25 @@ for(int i=0;i<n;i++){
 
 
     
-  /* int n=4;
+  /* QUESTION 8
+  int n=4;
    int num=1;
    for(int i=0;i<n;i++){
     for(int j=1;j<=i+1;j++){
     cout<<num;
     num++;
-   
-    
-}
-
-
+   }
 cout<<endl;   }
 */
 
 
 
 
-
-
-
-
-
-
-/*int n=5;
-
+/* QUESTION 9
+int n=5;
 for(int i=1;i<n+1;i++){
     for(int j=1;j<n-i+1;j++){
         cout<<i;
-        
     }
 cout<<endl;}
 */
@@ -148,26 +123,21 @@ cout<<endl;}
 
 
 
-
-
-
-
-
-
-/*\int n=5;
+/* QUESTION 10
+int n=5;
 for(int i=1;i<n+1;i++){
     for(int j=1;j<i+1;j++){
         cout<<" ";
     }
-    
-    for(int j=1;j<=n-i+1;j++){
+        for(int j=1;j<=n-i+1;j++){
         cout<<i;
     }
-    
     cout<<endl;*/
 
 
-/*
+
+
+ /* QUESTION 11
   int n=4;
   for(int i=0;i<n;i++){
     for(int j=0;j<n-i-1;j++){
@@ -181,11 +151,26 @@ for(int i=1;i<n+1;i++){
     }
 cout<<endl;
   }*/
-int n=3;
-for(int i=0;i<n;i++){
-    for(int j=i;j<=1;j--){
-        cout<<j;
-    }cout<<endl;
+
+
+
+
+ /* QUESTION 12 
+  int n=4;
+  for(int i=0;i<n;i++){
+    for(int j=0; j<n-i-1;j++){
+        cout<< " ";      
+} int num=1;
+for (int j=0;j<=i;j++){
+    cout<<num;
+    num ++;
 }
-    return 0;
+  for(int j=i;j>=1;j--){
+    cout<<j;
+      }
+cout<<endl;}
+*/
+
+
+return 0;
 }
