@@ -39,7 +39,7 @@ using namespace std;
 
 
     // to find factorial of a number
-    int fact(int n){
+    /*int fact(int n){
         if (n==0){
             cout<<"the factorial for the given number can't be printed";
         }
@@ -48,11 +48,11 @@ using namespace std;
         }else{
         int x=1;
         for(int i=1;i<=n;i++){
-            x=x*i;
+            x*=i;
         }return x;
     }}
 
     int main(){
     cout<< fact(4)<<endl;
     return 0;
-    }
+    }*/
