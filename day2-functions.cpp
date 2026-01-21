@@ -66,14 +66,15 @@ using namespace std;
 
     int sumdigits(int x){
         int X=0;
-        while(int x=!0){
-            x= x%10;
-            X=x + X;
-            x++;
-        }
+        while(x>0){
+            int y= x%10;
+            
+            x=x/10;
+            X=y + X;
+            }return X;
     }
     int main(){
-        sumdigits(125);
+        cout<<sumdigits(125);
         return 0;
     }
     
