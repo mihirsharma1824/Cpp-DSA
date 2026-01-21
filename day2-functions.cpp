@@ -54,5 +54,26 @@ using namespace std;
 
     int main(){
     cout<< fact(4)<<endl;
-    return 0;
+    return 0; 
     }*/
+
+
+
+
+
+
+    //sum of digits of a number
+
+    int sumdigits(int x){
+        int X=0;
+        while(int x=!0){
+            x= x%10;
+            X=x + X;
+            x++;
+        }
+    }
+    int main(){
+        sumdigits(125);
+        return 0;
+    }
+    
