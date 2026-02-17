@@ -64,7 +64,7 @@ using namespace std;
 
     //sum of digits of a number
 
-    int sumdigits(int x){
+    /*int sumdigits(int x){
         int X=0;
         while(x>0){
             int y= x%10;
@@ -76,5 +76,53 @@ using namespace std;
     int main(){
         cout<<sumdigits(125);
         return 0;
-    }
+    }*/
     
+
+
+
+
+    //binomial factorial 
+
+
+
+ 
+// dec to binary
+
+/*int main() {
+    cout<<"enter a number";
+    int n;
+    cin>>n;
+    int number=0;
+    int pow=1;
+    while(n>0){
+        int rem= n % 2;
+        number+= (rem *pow);
+       pow = pow * 10; 
+        n=n/2;
+    
+        
+       
+    }
+    cout<<number;
+
+    return 0;
+}*/
+
+
+
+int main()
+{
+int num=0;
+int pow = 1;
+int n,ans;
+cin>>n;
+     while (n>0){
+        int rem= n % 10;
+        num+= (rem*pow);
+        pow =pow* 2;
+        n=n/10;
+     }
+     cout<< num;
+     return 0;
+}
